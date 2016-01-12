@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>Show Star Entertainments</title>
+
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700">
+  <link rel="stylesheet" href="gridism.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <%= erb :header %>
+
+  <div class="grid">
+    <div class="unit half">
+    </div>
+    <div class="unit half">
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/znGBlw1pYqc" 
+      frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <div id="eventsGrid" class="grid">
+    <div class="unit one-third">
+      <div id="playhouseBox" class="eventBox">
+        Playhouse
+      </div>
+    </div>
+    <div class="unit one-third">
+    </div>
+    <div class="unit one-third">
+    </div>
+  </div>
+
+</body>
+</html>
