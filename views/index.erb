@@ -1,40 +1,84 @@
 <!doctype html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <!-- Template Header -->
+  <%= erb :header %>
 
-  <title>Show Star Entertainments</title>
-
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700">
-  <link rel="stylesheet" href="gridism.css">
-  <link rel="stylesheet" href="header.css">
-  <link rel="stylesheet" href="index.css">
+  <!-- Page Stylesheets/Scripts -->
+  <link rel="stylesheet" href="stylesheets/index.css">
 </head>
 
 <body>
-  <%= erb :header %>
+  <%= erb :navbar %>
+  <div class="wrapper">
 
-  <div class="grid">
-    <div class="unit half">
-    </div>
-    <div class="unit half">
-      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/znGBlw1pYqc" 
-      frameborder="0" allowfullscreen></iframe>
-    </div>
-  </div>
-
-  <div id="eventsGrid" class="grid">
-    <div class="unit one-third">
-      <div id="playhouseBox" class="eventBox">
-        Playhouse
+    <div id="leftContent">
+      <div id="about">
+        <h5 id="aboutTitle"> ABOUT US </h5>
+        <p> Show Star Entertainments hosts the hottest original events!. 
+        We pride ourselves on class, innovation and always pushing the boundaries 
+        to provide top quality events that cater for everyone. </p>
+        <p> Show Star Entertainments is an events company that has gone from 
+        strength to strength since its creation back in 2010; a group of lads 
+        looked at Loughborough's nightlife and decided it needed a MASSIVE change. </p>
+        <p> With events ranging from our debut event ALLURE (2010), 
+        to the ever-popular MAYHEM that has over 2000 people attending. 
+        Show Star Entertainments has got bigger and bigger and hosts a 
+        wide range of unique one off events, we also host the very popular 
+        weekly event House Party every Monday at Mansion Nightclub. </p>
+        <p> Using Loughborough as a base, Show Star Entertainments have 
+        also done events in Lincoln, Nottingham and London and has also
+        organised formal balls, talent shows, sample sales and concerts. </p>
+        <p> Make sure you keep checking the website to see what's happening 
+        and keep updated with our blog for some funny stories and experiences
+        from our loyal party goers and make sure you don't miss out on the 
+        latest events news around the country!</p>
       </div>
     </div>
-    <div class="unit one-third">
+
+    <div id="rightContent">
+      <iframe id="video" src="https://www.youtube.com/embed/znGBlw1pYqc" 
+        frameborder="0" allowfullscreen></iframe>
+
+      <div id="eventsStrip">
+        Events
+      </div>
+
+      <div id="eventsBox">
+        <div id="playhouseBox" class="eventBox">
+          <img class="eventsImg" src="images/picturegoeshere.png">
+          Playhouse
+        </div>
+
+        <div id="xothursdaysBox" class="eventBox">
+          <img class="eventsImg" src="images/picturegoeshere.png">
+          XO Thursdays
+        </div>
+
+        <div id="mayhemBox" class="eventBox">
+          <img class="eventsImg" src="images/picturegoeshere.png">
+          Mayhem
+        </div>
+
+        <div id="backwhenBox" class="eventBox">
+          <img class="eventsImg" src="images/picturegoeshere.png">
+          Back When
+        </div>
+
+        <div id="selectedsoundsBox" class="eventBox">
+          <img class="eventsImg" src="images/picturegoeshere.png">
+          Selected Sounds
+        </div>
+
+        <div id="eventportfolioBox" class="eventBox">
+          <img class="eventsImg" src="images/picturegoeshere.png">
+          Event Portfolio
+        </div>
+      </div>
     </div>
-    <div class="unit one-third">
-    </div>
+
   </div>
 
+  <%= erb :footer %>
 </body>
 </html>

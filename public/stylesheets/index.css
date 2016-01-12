@@ -1,0 +1,118 @@
+body {
+  background-color: #111;
+  color: #fff;
+  font-family: 'Montserrat';
+  margin: 0;
+}
+
+#about {
+  background-color: #222;
+  color: #ddd;
+  height: 850px;
+  width: 100%;
+  text-align: left;
+  top: 0;
+}
+
+#about p {
+  font-size: 12px;
+  font-weight: 400;
+  padding-left: 7px;
+  padding-right: 3px;
+}
+
+#aboutTitle {
+  background-color: #2d2d2d;
+  font-size: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  width: 100%;
+}
+
+
+#video {
+  left: 0;
+  right: 0;
+  height: 300px;
+  width: 100%;
+}
+
+#eventsStrip {
+  background-color: #CC324B;
+  height: 30px;
+  padding-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#eventsBox {
+  padding-top: 20px;
+}
+.eventBox {
+  background-color: #2d2d2d;
+  border-bottom: solid;
+  border-width: 2px;
+  display: inline-block;
+  font-size: 20px;
+  height: 220px;
+  margin-right: 53px;
+  margin-bottom: 25px;
+  left: 0;
+  right: 0;
+  width: 170px;
+  text-align: center;
+}
+
+  #playhouseBox {
+    border-color: #DD4B39;
+  }
+
+  #xothursdaysBox {
+    border-color: #11A8AB;
+  }
+
+  #mayhemBox {
+    border-color: yellow;
+    margin-right: 0;
+  }
+
+  #backwhenBox {
+    border-color: #0077B5;
+  }
+
+  #selectedsoundsBox {
+    border-color: purple;
+  }
+
+  #eventportfolioBox {
+    border-color: green;
+    margin-right: 0;
+  }
+
+.eventsImg {
+  margin: 0;
+  padding: 0;
+} 
+
+.wrapper {
+  clear: both;
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 960px;
+}
+
+#leftContent {
+  float: left; 
+  margin: 0;
+  padding-right: 5px;
+  width: 33%;
+}
+
+#rightContent {
+  float: right;
+  margin: 0;
+  width: 65%;
+}
+

@@ -1,0 +1,27 @@
+#links {
+  padding-top: 35px;
+}
+
+#navbar {
+  background-color: #111;
+  border-bottom: solid;
+  border-width: 3px;
+  border-color: #2d2d2d;
+  font-family: 'Montserrat';
+  height: 90px;
+}
+
+#navbar a {
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  background-color: #fff;
+  color: #111;
+}
+
+#navbar a.active {
+  background-color: #fff;
+}

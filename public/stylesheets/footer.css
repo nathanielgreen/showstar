@@ -1,0 +1,26 @@
+#footer {
+  background-color: #2d2d2d;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.links {
+  float: right;
+  height: 30px;
+  width: 30px;
+  padding: 10px;
+}
+
+  #facebookLink:hover {
+    background-color: #283e79;
+  }
+
+  #instagramLink:hover {
+    background-color: #264a6a;
+  }
+
+  #twitterLink:hover {
+    background-color: #2daae2;
+  }
