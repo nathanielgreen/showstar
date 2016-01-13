@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+  <!-- Template Header -->
+  <%= erb :header %>
+
+  <!-- Page Stylesheets/Scripts -->
+  <link rel="stylesheet" href="stylesheets/xothursdays.css">
+</head>
+
+<body>
+  <!-- Template Navbar -->
+  <%= erb :navbar %>
+
+  <div class="wrapper">
+    <div id="xothursdaysStrip">
+      <h1>XO THURSDAYS</h1>
+    </div>
+
+    <iframe id="video" width="100%" height="400" 
+      src="https://www.youtube.com/embed/pwBAvv73MGI" frameborder="0" 
+      allowfullscreen></iframe>
+
+    <div id="descDiv"> 
+      <h3 id="descTitle">'Be Part of the Revolution'</h3>
+      <div id="description">
+        <p id="descTime"> Every Thursday at Vodka Revolution </p>
+        <p> The concept of this night is to provide partygoers with a weekly
+        night which differs from what they see elsewhere in Loughborough.
+        This night is based around Glitz and Glamour, a night where people 
+        feel that they can wear a dress or a nice shirt/blazer without feeling
+        out of place. This does not mean that there is a strict dress code,
+        fancy dress and casual dress is also welcome but we bring elements
+        of the nightlife of bigger cities to Loughborough. This includes 
+        things like Saxophonists, Bongo Players, VIP table packages and
+        table hostesses.  </p>
+        <p id="findout"> Find out more <button id="here" 
+        href="https://www.facebook.com/xoloughborough/?fref=ts">here.</button>
+        <div id="descLinks">
+          <a href="https://twitter.com/playhouselbor://twitter.com/xolufbra">
+            <img id="descTwitterLink" src="images/twitterlogo.png">
+          </a>
+          <a href="https://www.instagram.com/xo_thursdays/">
+            <img id="descInstagramLink" src="images/instagramlogo.png">
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div> 
+
+  <!-- Template Footer -->
+  <%= erb :footer %>
+</body>
+</html>

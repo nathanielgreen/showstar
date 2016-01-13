@@ -1,27 +1,50 @@
-#links {
-  padding-top: 35px;
-}
-
-#navbar {
-  background-color: #111;
+ul {
+  background-color: #222;
   border-bottom: solid;
-  border-width: 3px;
+  border-width: 2px;
   border-color: #2d2d2d;
-  font-family: 'Montserrat';
-  height: 90px;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
 }
 
-#navbar a {
-  color: #fff;
-  padding: 10px;
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #ddd;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
 }
 
-#navbar a:hover {
-  background-color: #fff;
-  color: #111;
+#a-home:hover {
+  background-color: #DD4B39;
 }
 
-#navbar a.active {
-  background-color: #fff;
+#a-events:hover {
+  background-color: #11ABAB;
+}
+
+#a-gallery:hover {
+  background-color: #FCB150;
+}
+
+#a-videos:hover {
+  background-color: #0077B5;
+}
+
+#a-plan:hover {
+  background-color: #47177D;
+}
+
+#a-music:hover {
+  background-color: #197C19;
+}
+
+#a-contact:hover {
+  background-color: #DD4B39;
 }

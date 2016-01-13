@@ -9,13 +9,15 @@
 </head>
 
 <body>
+  <!-- Template Navbar -->
   <%= erb :navbar %>
+
   <div class="wrapper">
 
     <div id="leftContent">
       <div id="about">
         <h5 id="aboutTitle"> ABOUT US </h5>
-        <p> Show Star Entertainments hosts the hottest original events!. 
+        <p> Show Star Entertainments hosts the hottest original events!
         We pride ourselves on class, innovation and always pushing the boundaries 
         to provide top quality events that cater for everyone. </p>
         <p> Show Star Entertainments is an events company that has gone from 
@@ -46,13 +48,17 @@
 
       <div id="eventsBox">
         <div id="playhouseBox" class="eventBox">
-          <img class="eventsImg" src="images/picturegoeshere.png">
-          Playhouse
+          <a href="/playhouse">
+            <img class="eventsImg" src="images/picturegoeshere.png">
+            Playhouse
+          </a>
         </div>
 
         <div id="xothursdaysBox" class="eventBox">
-          <img class="eventsImg" src="images/picturegoeshere.png">
-          XO Thursdays
+          <a href="/xothursdays">
+            <img class="eventsImg" src="images/picturegoeshere.png">
+            XO Thursdays
+          </a>
         </div>
 
         <div id="mayhemBox" class="eventBox">
@@ -78,7 +84,8 @@
     </div>
 
   </div>
-
+  
+  <!-- Template Footer -->
   <%= erb :footer %>
 </body>
 </html>

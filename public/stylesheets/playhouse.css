@@ -1,0 +1,97 @@
+.wrapper {
+  clear: both;
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 960px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#playhouseStrip {
+  height: 60px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+  #playhouseStrip h1 {
+    background-color: #DD4B39;
+    padding: 20px;
+  }
+
+#video {
+  margin-top: 40px;
+}
+
+#descDiv {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#descTitle {
+  background-color: #2d2d2d;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+#description {
+  background-color: #222;
+  height: 300px;
+  padding: 35px;
+  width: 95%;
+}
+
+#descTime {
+  font-size: 18px;
+  text-align: center;
+}
+
+#findout {
+  font-size: 18px;
+  text-align: center;
+}
+
+#here {
+  background-color: #DD4B39;
+  color: #ddd;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 5px;
+}
+
+  #here:hover {
+    background-color: #fff;
+    color: #111;
+  }
+
+#descLinks {
+  width: 100%;
+  padding: 20px;
+}
+
+#descTwitterLink {
+  background-color: #2d2d2d;
+  height: 50px;
+  width: 50px;
+}
+
+  #descTwitterLink:hover {
+    background-color: #2daae2;
+  }
+
+#descInstagramLink {
+  background-color: #2d2d2d;
+  height: 50px;
+  width: 50px;
+}
+
+  #descInstagramLink:hover {
+    background-color: #264a6a;
+  }

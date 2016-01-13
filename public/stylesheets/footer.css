@@ -1,3 +1,10 @@
+body {
+  background-color: #111;
+  color: #ddd;
+  font-family: 'Montserrat';
+  margin: 0;
+}
+
 #footer {
   background-color: #2d2d2d;
   height: 50px;

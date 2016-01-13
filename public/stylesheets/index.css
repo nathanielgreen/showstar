@@ -1,14 +1,19 @@
 body {
   background-color: #111;
-  color: #fff;
+  color: #ddd;
   font-family: 'Montserrat';
   margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
 #about {
   background-color: #222;
   color: #ddd;
-  height: 850px;
+  height: 550px;
   width: 100%;
   text-align: left;
   top: 0;
@@ -69,27 +74,51 @@ body {
     border-color: #DD4B39;
   }
 
+    #playhouseBox:hover {
+      background-color: #DD4B39;
+    }
+
   #xothursdaysBox {
     border-color: #11A8AB;
   }
 
+    #xothursdaysBox:hover {
+      background-color: #11A8AB;
+    }
+
   #mayhemBox {
-    border-color: yellow;
+    border-color: #FCB150;
     margin-right: 0;
   }
+
+    #mayhemBox:hover {
+      background-color: #FCB150;
+    }
 
   #backwhenBox {
     border-color: #0077B5;
   }
 
+    #backwhenBox:hover {
+      background-color: #0077B5;
+    }
+
   #selectedsoundsBox {
-    border-color: purple;
+    border-color: #47177d;
   }
 
+    #selectedsoundsBox:hover {
+      background-color: #47177d;
+    }
+
   #eventportfolioBox {
-    border-color: green;
+    border-color: #198c19;
     margin-right: 0;
   }
+
+    #eventportfolioBox:hover {
+      background-color: #198c19;
+    }
 
 .eventsImg {
   margin: 0;

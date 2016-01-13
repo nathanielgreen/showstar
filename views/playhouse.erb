@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+  <!-- Template Header -->
+  <%= erb :header %>
+
+  <!-- Page Stylesheets/Scripts -->
+  <link rel="stylesheet" href="stylesheets/playhouse.css">
+</head>
+
+<body>
+  <!-- Template Navbar -->
+  <%= erb :navbar %>
+
+  <div class="wrapper">
+    <div id="playhouseStrip">
+      <h1>PLAYHOUSE</h1>
+    </div>
+
+    <iframe id="video" width="100%" height="400" src="https://www.youtube.com/embed/GzyDzmxFrN8"
+      frameborder="0" allowfullscreen></iframe>
+
+    <div id="descDiv"> 
+      <h3 id="descTitle">'All Play No Work'</h3>
+      <div id="description">
+        <p id="descTime"> Every Monday at The Brooklyn Bar. </p>
+        <p> Welcome to our House of Fun at Brooklyn's! Come down and play as we 
+        transform Monday nights into a fun filled yet stylish night out. 
+        Our PlayHouse is complete with two floors of music (HipHop & 
+        RnB downstairs, House & Disco upstairs), private areas, VIP tables,
+        Ping-Pong, Beer Pong, Crazy drinks deals & Shisha. We have everything 
+        you need if you are looking for a place to express your mischievous side
+        as our resident DJ's, drinks and activities are all here to help you let 
+        loose! You've worked hard (well kinda), now it's time to play hard! </p>
+        <p id="findout"> Find out more <button id="here" 
+        href="https://www.facebook.com/ShowStarEntertainments/">here.</button>
+        <div id="descLinks">
+          <a href="https://twitter.com/playhouselboro">
+            <img id="descTwitterLink" src="images/twitterlogo.png">
+          </a>
+          <a href="https://www.instagram.com/playhouselboro/">
+            <img id="descInstagramLink" src="images/instagramlogo.png">
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div> 
+
+  <!-- Template Footer -->
+  <%= erb :footer %>
+</body>
+</html>
