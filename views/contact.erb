@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+  <!-- Template Header -->
+  <%= erb :header %>
+
+  <!-- Page Stylesheets/Scripts -->
+  <link rel="stylesheet" href="stylesheets/contact.css">
+</head>
+
+<body>
+  <!-- Template Navbar -->
+  <%= erb :navbar %>
+
+  <div class="wrapper">
+    <div id="contactStrip">
+      <h1>CONTACT US</h1>
+    </div>
+
+    <div id="emailDiv">
+      <p> For all enquiries please contact us by email: </p>
+      <a href="mailto:showstarents@live.co.uk">showstarents@live.co.uk</a>
+      <p> or fill in the following form: </p>
+    </div>
+
+    <div id="formDiv">
+      <form id="contactForm">
+        Name:<br>
+        <input type="text" name="name"><br>
+        Number:<br>
+        <input type="text" name="number"><br>
+        Email Address:<br>
+        <input type="text" name="email"><br>
+        Enquiry:<br>
+        <textarea id="enquiry" type="textarea" name="enquiry"></textarea><br>
+        <input id="sendEmail" type="submit" value="Submit">
+      </form>
+    </div>
+
+
+
+  </div> 
+
+</body>
+</html>

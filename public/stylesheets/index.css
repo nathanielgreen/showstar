@@ -10,11 +10,45 @@ a {
   text-decoration: none;
 }
 
+#social {
+  color: #ddd;
+  width: 100%;
+  text-align: left;
+  top: 0;
+}
+
+#socialTitle {
+  background-color: #2d2d2d;
+  font-size: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  width: 100%;
+}
+
+.socialLink {
+  height: 102.5px;
+  background-color: #2d2d2d;
+}
+
+  #facebookLink:hover {
+    background-color: #283e79;
+  }
+
+  #instagramLink:hover {
+    background-color: #264a6a;
+  }
+
+  #twitterLink:hover {
+    background-color: #2daae2;
+  }
+
+
 #about {
   background-color: #222;
   color: #ddd;
-  height: 550px;
   width: 100%;
+  padding-bottom: 20px;
   text-align: left;
   top: 0;
 }
@@ -35,6 +69,9 @@ a {
   width: 100%;
 }
 
+#aboutLogo {
+  width: 100%;
+}
 
 #video {
   left: 0;

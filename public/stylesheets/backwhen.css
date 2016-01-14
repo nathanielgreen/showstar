@@ -10,20 +10,21 @@ a {
   text-decoration: none;
 }
 
-#xothursdaysStrip {
+#backwhenStrip {
   height: 60px;
   width: 100%;
   margin: 0 auto;
+  margin-bottom: 40px;
   text-align: center;
 }
 
-#xothursdaysStrip h1 {
-  background-color: #11ABAB;
+#backwhenStrip h1 {
+  background-color: #0077B5;
   padding: 20px;
 }
 
-#video {
-  margin-top: 40px;
+.pictureGridImg {
+  width: 317px;
 }
 
 #descDiv {
@@ -57,7 +58,7 @@ a {
 }
 
 #here {
-  background-color: #11ABAB;
+  background-color: #0077B5;
   color: #ddd;
   border: none;
   font-family: inherit;
@@ -94,5 +95,3 @@ a {
   #descInstagramLink:hover {
     background-color: #264a6a;
   }
-
-

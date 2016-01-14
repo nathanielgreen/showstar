@@ -5,8 +5,8 @@ get '/' do
   erb :index
 end
 
-get '/events' do
-  erb :events
+get '/contact' do
+  erb :contact
 end
 
 get '/playhouse' do
@@ -15,4 +15,12 @@ end
 
 get '/xothursdays' do
   erb :xothursdays
+end
+
+get '/backwhen' do
+  erb :backwhen
+end
+
+get '/mayhem' do
+  erb :mayhem
 end

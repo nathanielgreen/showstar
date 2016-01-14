@@ -15,26 +15,36 @@
   <div class="wrapper">
 
     <div id="leftContent">
+      <div id="social">
+        <h5 id="socialTitle">SOCIAL MEDIA</h5>
+        <a href="https://twitter.com/showstarents">
+          <img id="twitterLink" class="socialLink" src="images/twitterlogo.png">
+        </a>
+        <a href="https://www.facebook.com/ShowStarEntertainments/?fref=photo">
+          <img id="facebookLink" class="socialLink" src="images/facebooklogo.png">
+        </a>
+        <a href="https://www.instagram.com/showstarents/">
+          <img id="instagramLink" class="socialLink" src="images/instagramlogo.png">
+        </a>
+      </div>
+
       <div id="about">
         <h5 id="aboutTitle"> ABOUT US </h5>
-        <p> Show Star Entertainments hosts the hottest original events!
-        We pride ourselves on class, innovation and always pushing the boundaries 
-        to provide top quality events that cater for everyone. </p>
-        <p> Show Star Entertainments is an events company that has gone from 
-        strength to strength since its creation back in 2010; a group of lads 
-        looked at Loughborough's nightlife and decided it needed a MASSIVE change. </p>
-        <p> With events ranging from our debut event ALLURE (2010), 
-        to the ever-popular MAYHEM that has over 2000 people attending. 
-        Show Star Entertainments has got bigger and bigger and hosts a 
-        wide range of unique one off events, we also host the very popular 
-        weekly event House Party every Monday at Mansion Nightclub. </p>
-        <p> Using Loughborough as a base, Show Star Entertainments have 
-        also done events in Lincoln, Nottingham and London and has also
-        organised formal balls, talent shows, sample sales and concerts. </p>
-        <p> Make sure you keep checking the website to see what's happening 
-        and keep updated with our blog for some funny stories and experiences
-        from our loyal party goers and make sure you don't miss out on the 
-        latest events news around the country!</p>
+        <img id="aboutLogo" src="images/showstarlogo.png">
+        <p> Show Star Entertainments hosts the hottest original events!.
+        We pride ourselves on class, innovation and always pushing the
+        boundaries to provide top quality events that cater for everyone. </p>
+        <p> We believe we have the formula for success by combining
+        innovative ideas with forward planning, hard work and solid networking.
+        With events ranging from 300- 3000 people, each event is promoted
+        as if it were a launch night and the hard work and skill that goes
+        into filling each event is replicated by the delivery of the top
+        class events which are associated with us. </p>
+        <p> Show Star Entertainments has grown each year; hosting a wide range
+        of unique one off events and also hosting two very popular weekly 
+        nights. Using Loughborough as a base, Show Star Entertainments has 
+        also done events in Lincoln, Nottingham and London and has organized 
+        formal balls, talent shows, sample sales and concerts. </p>
       </div>
     </div>
 
@@ -62,13 +72,17 @@
         </div>
 
         <div id="mayhemBox" class="eventBox">
-          <img class="eventsImg" src="images/picturegoeshere.png">
-          Mayhem
+          <a href="/mayhem">
+            <img class="eventsImg" src="images/picturegoeshere.png">
+            Mayhem
+          </a>
         </div>
 
         <div id="backwhenBox" class="eventBox">
-          <img class="eventsImg" src="images/picturegoeshere.png">
-          Back When
+          <a href="/backwhen">
+            <img class="eventsImg" src="images/picturegoeshere.png">
+            Back When
+          </a>
         </div>
 
         <div id="selectedsoundsBox" class="eventBox">
@@ -85,7 +99,5 @@
 
   </div>
   
-  <!-- Template Footer -->
-  <%= erb :footer %>
 </body>
 </html>

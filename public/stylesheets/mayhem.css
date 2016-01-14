@@ -10,15 +10,16 @@ a {
   text-decoration: none;
 }
 
-#xothursdaysStrip {
+#mayhemStrip {
   height: 60px;
   width: 100%;
   margin: 0 auto;
   text-align: center;
 }
 
-#xothursdaysStrip h1 {
-  background-color: #11ABAB;
+#mayhemStrip h1 {
+  background-color: #FCB150;
+  color: #2d2d2d;
   padding: 20px;
 }
 
@@ -33,10 +34,13 @@ a {
 }
 
 #descTitle {
-  background-color: #2d2d2d;
-  text-align: center;
+  text-align: center; 
   padding: 10px;
   margin-bottom: 0;
+}
+
+#mayhemlogo {
+  width: 30%;
 }
 
 #description {
@@ -57,8 +61,8 @@ a {
 }
 
 #here {
-  background-color: #11ABAB;
-  color: #ddd;
+  background-color: #FCB150;
+  color: #2d2d2d;
   border: none;
   font-family: inherit;
   font-size: inherit;
@@ -95,4 +99,6 @@ a {
     background-color: #264a6a;
   }
 
-
+#videoGrid {
+  margin-top: 20px;
+}

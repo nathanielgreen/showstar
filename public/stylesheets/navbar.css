@@ -25,26 +25,18 @@ li a {
   background-color: #DD4B39;
 }
 
-#a-events:hover {
+#a-gallery:hover {
   background-color: #11ABAB;
 }
 
-#a-gallery:hover {
+#a-plan:hover {
   background-color: #FCB150;
 }
 
-#a-videos:hover {
+#a-music:hover {
   background-color: #0077B5;
 }
 
-#a-plan:hover {
-  background-color: #47177D;
-}
-
-#a-music:hover {
-  background-color: #197C19;
-}
-
 #a-contact:hover {
-  background-color: #DD4B39;
+  background-color: #47177D;
 }
