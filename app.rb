@@ -39,3 +39,7 @@ end
 get '/mayhem' do
   erb :mayhem
 end
+
+get '/selectedsounds' do
+  erb :selectedsounds
+end

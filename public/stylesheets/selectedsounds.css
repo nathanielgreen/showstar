@@ -1,0 +1,109 @@
+.wrapper {
+  clear: both;
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 960px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#selectedsoundsStrip {
+  height: 60px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#selectedsoundsStrip h1 {
+  background-color: #47177D;
+  padding: 20px;
+}
+
+#video {
+  margin-top: 40px;
+}
+
+#descDiv {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#descLogo {
+  text-align: center;
+  margin-bottom: 0;  
+}
+
+  #xothursdayslogo {
+    width: 30%;
+  }
+
+#descTitle {
+  background-color: #2d2d2d;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+#description {
+  background-color: #222;
+  height: 300px;
+  padding: 35px;
+  text-align: center;
+  width: 95%;
+}
+
+#descTime {
+  font-size: 18px;
+  text-align: center;
+}
+
+#findout {
+  font-size: 18px;
+  text-align: center;
+}
+
+#here {
+  background-color: #47177D;
+  color: #ddd;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 5px;
+}
+
+  #here:hover {
+    background-color: #fff;
+    color: #111;
+  }
+
+#descLinks {
+  width: 100%;
+  padding: 20px;
+  text-align: left;
+}
+
+#descTwitterLink {
+  background-color: #2d2d2d;
+  height: 50px;
+  width: 50px;
+}
+
+  #descTwitterLink:hover {
+    background-color: #2daae2;
+  }
+
+#descInstagramLink {
+  background-color: #2d2d2d;
+  height: 50px;
+  width: 50px;
+}
+
+  #descInstagramLink:hover {
+    background-color: #264a6a;
+  }
+
+
