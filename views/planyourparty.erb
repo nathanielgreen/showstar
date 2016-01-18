@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+  <!-- Template Header -->
+  <%= erb :header %>
+
+  <!-- Page Stylesheets/Scripts -->
+  <link rel="stylesheet" href="stylesheets/planyourparty.css">
+</head>
+
+<body>
+  <!-- Template Navbar -->
+  <%= erb :navbar %>
+
+  <div class="wrapper">
+    <div id="planyourpartyStrip">
+      <h1>PLAN YOUR PARTY</h1>
+    </div>
+
+    <div id="emailDiv">
+      <p> Need assistance planning an event or social gathering?
+      Don't hesitate to contact us at ShowStar Entertainments. </p>
+
+      <p> We have experience planning, marketing and managing events of 
+      all sizes, from birthday parties to club events, formal balls and concerts. </p>
+
+      <p> You can also plan your birthday with us in advance, just let 
+      us know the date of birthday and requirements and we can tailor a 
+      package just for you. </p>
+
+      <p> For all enquiries please contact us by email: </p>
+      <a href="mailto:showstarents@live.co.uk">showstarents@live.co.uk</a>
+      <p> or fill in the following form: </p>
+    </div>
+
+    <div id="formDiv">
+      <form id="contactForm">
+        Name:<br>
+        <input type="text" name="name"><br>
+        Mobile Number:<br>
+        <input type="text" name="number"><br>
+        Email Address:<br>
+        <input type="text" name="email"><br>
+        Enquiry:<br>
+        <textarea id="enquiry" type="textarea" name="enquiry"></textarea><br>
+        <input id="sendEmail" type="submit" value="Submit">
+      </form>
+    </div>
+
+    <div id="photoGrid" class="grid">
+      <img class="photoGridImg" src="images/planyourparty/1.jpg">
+      <img class="photoGridImg" src="images/planyourparty/2.jpg">
+      <img class="photoGridImg" src="images/planyourparty/3.jpg">
+      <img class="photoGridImg" src="images/planyourparty/4.jpg">
+      <img class="photoGridImg" src="images/planyourparty/5.jpg">
+      <img class="photoGridImg" src="images/planyourparty/6.jpg">
+      <img class="photoGridImg" src="images/planyourparty/7.jpg">
+    </div>
+
+  </div> 
+</body>
+</html>

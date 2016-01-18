@@ -32,6 +32,16 @@ a {
   overflow: hidden;
 }
 
+#descLogo {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+  #playhouselogo {
+    width: 30%; 
+  }
+
 #descTitle {
   background-color: #2d2d2d;
   text-align: center;

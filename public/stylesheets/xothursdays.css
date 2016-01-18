@@ -32,6 +32,15 @@ a {
   overflow: hidden;
 }
 
+#descLogo {
+  text-align: center;
+  margin-bottom: 0;  
+}
+
+  #xothursdayslogo {
+    width: 30%;
+  }
+
 #descTitle {
   background-color: #2d2d2d;
   text-align: center;
