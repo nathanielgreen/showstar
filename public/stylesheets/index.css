@@ -91,6 +91,8 @@ a {
 
 #eventsBox {
   padding-top: 20px;
+  width: 100%;
+  text-align: center;
 }
 .eventBox {
   background-color: #2d2d2d;
@@ -98,12 +100,11 @@ a {
   border-width: 2px;
   display: inline-block;
   font-size: 20px;
-  height: 220px;
-  margin-right: 53px;
+  margin: 10px;
   margin-bottom: 25px;
   left: 0;
   right: 0;
-  width: 170px;
+  width: 30%;
   text-align: center;
 }
 
@@ -188,7 +189,7 @@ a {
   }  
 
   .eventBox {
-    margin: 10px;
+    width: 45%;
   }
 
   #leftContent {
