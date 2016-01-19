@@ -49,6 +49,7 @@ a {
   color: #ddd;
   width: 100%;
   padding-bottom: 20px;
+  margin-bottom: 20px;
   text-align: left;
   top: 0;
 }
@@ -105,7 +106,7 @@ a {
   padding-bottom: 10px;
   left: 0;
   right: 0;
-  width: 30%;
+  width: 28%;
   text-align: center;
 }
 
@@ -127,7 +128,6 @@ a {
 
   #mayhemBox {
     border-color: #FCB150;
-    margin-right: 0;
   }
 
     #mayhemBox:hover {
@@ -152,7 +152,6 @@ a {
 
   #eventportfolioBox {
     border-color: #198c19;
-    margin-right: 0;
   }
 
     #eventportfolioBox:hover {
@@ -187,21 +186,21 @@ a {
 
 @media screen and (max-width: 480px) {
   .wrapper {
-    width: 480px;
+    width: 90%;
   }  
 
   .eventBox {
-    width: 45%;
+    width: 80%;
   }
 
   #leftContent {
     float: none;
-    width: 90%
+    width: 100%
   }
 
   #rightContent {
     float: none;
-    width: 90%
+    width: 100%
   }
 
   #eventsStrip {
