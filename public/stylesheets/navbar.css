@@ -1,8 +1,12 @@
 body {
-  background-color: none;
-  background-image: url(http://imgur.com/RGZSPdo.jpg);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+  background-color: #111;
+  background-size: 100%;
+  background-repeat: repeat;
+}
+
+#topnavbar {
+  text-align: center;
+  margin: 0 auto;
 }
 
 ul {
@@ -11,8 +15,9 @@ ul {
   border-width: 2px;
   border-color: #2d2d2d;
   list-style-type: none;
+  text-align: center;
+  padding-left: 35%;
   margin: 0 auto;
-  padding: 0;
   overflow: hidden;
 }
 
