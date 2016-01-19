@@ -13,16 +13,13 @@ a {
 }
 
 #backwhenStrip {
+  background-color: #0077B5;
+  padding-top: 20px;
   height: 60px;
   width: 100%;
   margin: 0 auto;
   margin-bottom: 40px;
   text-align: center;
-}
-
-#backwhenStrip h1 {
-  background-color: #0077B5;
-  padding: 20px;
 }
 
 #pictureGrid {
@@ -32,7 +29,7 @@ a {
 }
 
 .pictureGridImg {
-  width: 49%;
+  width: 32%;
 }
 
 #descDiv {

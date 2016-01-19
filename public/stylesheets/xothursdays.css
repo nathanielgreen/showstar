@@ -13,15 +13,12 @@ a {
 }
 
 #xothursdaysStrip {
+  background-color: #11ABAB;
+  padding-top: 20px;
   height: 60px;
   width: 100%;
   margin: 0 auto;
   text-align: center;
-}
-
-#xothursdaysStrip h1 {
-  background-color: #11ABAB;
-  padding: 20px;
 }
 
 #video {
