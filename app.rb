@@ -1,4 +1,5 @@
 # app.rb
+require "bundler/setup"
 require 'sinatra'
 
 #navbar
