@@ -63,3 +63,19 @@ a {
       background-color: #2d2d2d;
       color: #f5f5dc;
     }
+
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  .eventLogo {
+    width: 70%;
+  }
+
+  .eventImg {
+    width: 48%;
+  }
+
+}

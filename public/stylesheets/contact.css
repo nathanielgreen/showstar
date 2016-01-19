@@ -74,3 +74,18 @@ a {
     background-color: #fff;
     color: #2d2d2d;
   }
+
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  #contactForm input {
+    width: 80%;
+  }
+
+  #enquiry {
+    width: 80%; 
+  }
+}

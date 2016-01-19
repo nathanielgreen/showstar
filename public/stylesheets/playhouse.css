@@ -3,6 +3,8 @@
   margin: 0 auto;
   padding-top: 20px;
   width: 960px;
+  overflow: hidden;
+  padding-bottom: 50px;
 }
 
 a {
@@ -11,29 +13,25 @@ a {
 }
 
 #playhouseStrip {
+  background-color: #DD4B39;
+  padding: 20px;
   height: 60px;
   width: 100%;
-  margin: 0 auto;
   text-align: center;
 }
-
-  #playhouseStrip h1 {
-    background-color: #DD4B39;
-    padding: 20px;
-  }
 
 #video {
   margin-top: 40px;
 }
 
 #descDiv {
+  background-color: #222;
   width: 100%;
-  margin: 0 auto;
-  overflow: hidden;
 }
 
 #descLogo {
   text-align: center;
+  background-color: none;
   padding: 10px;
   margin-bottom: 0;
 }
@@ -51,11 +49,12 @@ a {
 }
 
 #description {
-  background-color: #222;
-  height: 300px;
-  padding: 35px;
-  width: 95%;
+  width: 100%;
 }
+
+  #description p {
+    padding: 10px;
+  }
 
 #descTime {
   font-size: 18px;
@@ -105,3 +104,14 @@ a {
   #descInstagramLink:hover {
     background-color: #264a6a;
   }
+
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  #playhouselogo {
+    width: 70%;
+  }
+}

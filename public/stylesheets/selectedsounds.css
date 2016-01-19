@@ -3,6 +3,8 @@
   margin: 0 auto;
   padding-top: 20px;
   width: 960px;
+  overflow: hidden;
+  padding-bottom: 50px;
 }
 
 a {
@@ -27,9 +29,8 @@ a {
 }
 
 #descDiv {
+  background-color: #222;
   width: 100%;
-  margin: 0 auto;
-  overflow: hidden;
 }
 
 #descLogo {
@@ -49,12 +50,13 @@ a {
 }
 
 #description {
-  background-color: #222;
-  height: 300px;
-  padding: 35px;
-  text-align: center;
-  width: 95%;
+  width: 100%;
 }
+
+  #description p {
+    text-align: center;
+    padding: 10px;
+  }
 
 #descTime {
   font-size: 18px;
@@ -106,4 +108,12 @@ a {
     background-color: #264a6a;
   }
 
+@media screen and (max-width: 480px) {
+  .wrapper {
+    width: 90%;
+  }
 
+  #selectedsoundslogo {
+    width: 100%;
+  }
+}

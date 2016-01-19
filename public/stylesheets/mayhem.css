@@ -3,6 +3,8 @@
   margin: 0 auto;
   padding-top: 20px;
   width: 960px;
+  overflow: hidden;
+  padding-bottom: 50px;
 }
 
 a {
@@ -28,13 +30,13 @@ a {
 }
 
 #descDiv {
+  background-color: #222;
   width: 100%;
-  margin: 0 auto;
-  overflow: hidden;
 }
 
-#descTitle {
-  text-align: center; 
+#descLogo {
+  text-align: center;
+  background-color: none;
   padding: 10px;
   margin-bottom: 0;
 }
@@ -44,11 +46,12 @@ a {
 }
 
 #description {
-  background-color: #222;
-  height: 300px;
-  padding: 35px;
-  width: 95%;
+  width: 100%;
 }
+
+  #description p {
+    padding: 10px;
+  }
 
 #descTime {
   font-size: 18px;
@@ -101,4 +104,14 @@ a {
 
 #videoGrid {
   margin-top: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  #mayhemlogo {
+    width: 70%;
+  }
 }

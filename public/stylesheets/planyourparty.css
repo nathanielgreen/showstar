@@ -85,3 +85,19 @@ a {
     padding: 5px;
     width: 45%;
   }
+
+@media screen and (max-width: 480px) {
+
+  .wrapper {
+    width: 90%;
+
+  } 
+
+  #contactForm input {
+    width: 80%;
+  }
+
+  #enquiry {
+    width: 80%;
+  }
+}
