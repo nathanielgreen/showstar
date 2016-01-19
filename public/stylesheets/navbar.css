@@ -33,12 +33,16 @@ li a {
   background-color: #FCB150;
 }
 
-#a-music:hover {
+#a-upcoming:hover {
   background-color: #0077B5;
 }
 
-#a-contact:hover {
+#a-music:hover {
   background-color: #47177D;
+}
+
+#a-contact:hover {
+  background-color: #79c879;
 }
 
 @media screen and (max-width: 480px) {
