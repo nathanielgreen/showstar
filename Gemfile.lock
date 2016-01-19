@@ -17,6 +17,3 @@ PLATFORMS
 DEPENDENCIES
   ruby
   sinatra
-
-BUNDLED WITH
-   1.11.2
