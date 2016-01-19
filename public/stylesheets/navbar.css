@@ -43,7 +43,6 @@ li a {
 
 @media screen and (max-width: 480px) {
   #topnavbar {
-    position: fixed;
     width: 100%;
   }
 
