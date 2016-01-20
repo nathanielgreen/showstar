@@ -69,7 +69,7 @@ a {
   color: #ddd;
   width: 100%;
   padding-bottom: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: left;
   top: 0;
 }
@@ -87,6 +87,14 @@ a {
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: center;
+  width: 100%;
+}
+
+#flyerDiv {
+  width: 100%;
+}
+
+#flyer {
   width: 100%;
 }
 
@@ -194,6 +202,7 @@ a {
   margin: 0 auto;
   padding-top: 20px;
   width: 960px;
+  padding-bottom: 20px;
 }
 
 #leftContent {
@@ -215,12 +224,20 @@ a {
   }  
 
   .eventBox {
-    width: 80%;
+    margin: 5px;
+    font-size: 14px;
+    width: 30%;
   }
 
   #leftContent {
     float: none;
     width: 100%
+  }
+
+  #social {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 10px;
   }
 
   #rightContent {
@@ -233,6 +250,6 @@ a {
   }
 
   .socialLink {
-    width: 25%;
+    width: 20%;
   }
 }
