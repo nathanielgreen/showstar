@@ -1,8 +1,9 @@
 .wrapper {
   clear: both;
   margin: 0 auto;
-  padding-top: 20px;
   width: 960px;
+  padding-top: 20px;
+  margin-top: 50px;
   overflow: hidden;
   padding-bottom: 50px;
 }

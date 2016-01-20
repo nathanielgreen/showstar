@@ -6,11 +6,14 @@ body {
 
 #topnavbar {
   background-color: #222;
-  border: solid;
+  border-bottom: solid;
   border-width: 2px;
   border-color: #2d2d2d;
   padding: 5px;
   text-align: center;
+  top: 0;
+  position: fixed;
+  width: 100%;
 }
 
 .navLink {
