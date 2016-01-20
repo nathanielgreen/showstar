@@ -197,6 +197,23 @@ a {
   padding: 0;
 } 
 
+#upcomingStrip {
+  background-color: #CC324B;
+  height: 30px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#upcomingDiv {
+  margin: 0 auto;
+  text-align: center;
+}
+
+  #upcomingDiv h3 {
+    background-color: #2d2d2d; 
+    padding: 20px;
+  } 
+
 .wrapper {
   clear: both;
   margin: 0 auto;

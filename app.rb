@@ -15,6 +15,10 @@ get '/planyourparty' do
   erb :planyourparty
 end
 
+get '/news' do
+  erb :news
+end
+
 get '/music' do
   erb :music
 end
