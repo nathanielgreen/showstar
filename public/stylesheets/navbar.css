@@ -5,28 +5,15 @@ body {
 }
 
 #topnavbar {
-  text-align: center;
-  margin: 0 auto;
-}
-
-ul {
   background-color: #222;
-  border-bottom: solid;
+  border: solid;
   border-width: 2px;
   border-color: #2d2d2d;
-  list-style-type: none;
+  padding: 5px;
   text-align: center;
-  padding-left: 35%;
-  margin: 0 auto;
-  overflow: hidden;
 }
 
-li {
-  float: left;
-}
-
-li a {
-  display: block;
+.navLink {
   color: #ddd;
   text-align: center;
   padding: 14px 16px;
@@ -62,9 +49,9 @@ li a {
     width: 100%;
   }
 
-  li a {
+  .navLink {
     font-size: 12px;
     padding: 10px;
-    word-spacing: 2px;
+    word-spacing: 0px;
   }
 }
