@@ -17,7 +17,7 @@ a {
   padding-top: 20px;
   height: 60px;
   width: 100%;
-  margin: 0 auto;
+  margin: 20 auto;
   text-align: center;
 }
 
@@ -26,8 +26,8 @@ a {
 }
 
 #descDiv {
-  background-color: #222;
-  width: 100%;
+  width: 70%;
+  float: right;
 }
 
 #descLogo {
@@ -41,6 +41,12 @@ a {
     width: 30%;
   }
 
+  #xoflyer {
+    float: left;
+    padding: 20px;
+    width: 25%;
+  }
+
 #descTitle {
   background-color: #2d2d2d;
   text-align: center;
@@ -49,6 +55,8 @@ a {
 }
 
 #description {
+  padding-top: 1px;
+  background-color: #222;
   width: 100%;
 }
 
@@ -108,6 +116,18 @@ a {
 @media screen and (max-width: 480px) {
   .wrapper {
     width: 90%;
+  }
+
+  #xoflyer {
+    text-align: center;
+    float: none;
+    padding: 0;
+    width: 100%;
+  }
+
+  #descDiv {
+    float: none;
+    width: 100%;
   }
 
   #xothursdayslogo {
