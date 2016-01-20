@@ -2,6 +2,7 @@
   clear: both;
   margin: 0 auto;
   padding-top: 20px;
+  padding-bottom: 20px;
   width: 960px;
   margin-top: 50px;
 }
@@ -75,6 +76,49 @@ a {
     background-color: #fff;
     color: #2d2d2d;
   }
+
+#socialLinksDiv {
+  background-color: #222;
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.socialLink {
+  border: solid;
+  border-color: #000;
+  border-width: 5px;
+  width: 20%;
+}
+
+  #facebookLink {
+    background-color: #283e79;
+  }
+    #facebookLink:hover {
+      border: solid;
+      border-width: 5px;
+      border-color: #283e79;
+    }
+
+  #instagramLink {
+    background-color: #264a6a;
+  }
+    #instagramLink:hover {
+      border: solid;
+      border-width: 5px;
+      border-color: #264a6a;
+    }
+
+  #twitterLink {
+    background-color: #2daae2;
+  }
+    #twitterLink:hover {
+      border: solid;
+      border-width: 5px;
+      border-color: #2daae2;
+    }
 
 
 @media screen and (max-width: 480px) {
