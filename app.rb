@@ -1,8 +1,7 @@
 # app.rb
 require "bundler/setup"
 require 'sinatra'
-require 'pony'
-
+require 'mail'
 
   #navbar
   get '/' do
@@ -31,10 +30,19 @@ require 'pony'
 
   post '/contact' do
     name = params[:name]
-    mail = params[:mail]
+    email = params[:email]
     subject = params[:subject]
     body = params[:body]
-    Pony.mail(:to => 'ngreen2303@gmail.com', :from => "#{mail}", :subject => "#{subject}", :body => "#{body}")
+    puts name
+    puts email
+    puts subject
+    puts body
+    mail = Mail.new do
+      from    "#{mail}"
+      to      "ngreen2303@gmail.com"
+      subject 'This is a test email'
+      body    'This is a test' 
+    end
     erb :contact
   end
 
