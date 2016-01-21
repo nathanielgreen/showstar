@@ -24,15 +24,17 @@
     </div>
 
     <div id="formDiv">
-      <form id="contactForm">
+      <form id="contactForm" action="/contact" method="post">
         Name:<br>
-        <input type="text" name="name"><br>
-        Mobile Number:<br>
-        <input type="text" name="number"><br>
+        <input type="text" placeholder="Full Name" name="name"><br>
+        Subject:<br>
+        <input type="text" placeholder="Full Name" name="subject"><br>
+<!--        Mobile Number:<br>
+        <input type="text" placeholder="Telephone" name="number"><br> -->
         Email Address:<br>
-        <input type="text" name="email"><br>
+        <input type="email" placeholder="Email" name="mail"><br>
         Enquiry:<br>
-        <textarea id="enquiry" type="textarea" name="enquiry"></textarea><br>
+        <textarea id="enquiry" type="textarea" placeholder="Enquiry" name="body"></textarea><br>
         <input id="sendEmail" type="submit" value="Submit">
       </form>
     </div>
