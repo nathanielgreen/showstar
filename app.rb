@@ -1,7 +1,7 @@
 # app.rb
 require "bundler/setup"
 require 'sinatra'
-require 'pony'
+require 'mailgun'
 
   #navbar
   get '/' do
@@ -33,11 +33,9 @@ require 'pony'
     email = params[:email]
     subject = params[:subject]
     body = params[:body]
-     Pony.mail(
-       :to => 'n@ngreen.co', 
-       :from => "#{email}", 
-       :subject => "#{subject}", 
-       :body => "#{body}")
+
+    mg_client = Mailgun::Client.new ""
+
     erb :contact
   end
 

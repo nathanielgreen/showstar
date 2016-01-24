@@ -2,4 +2,4 @@ source "http://rubygems.org"
 
 gem "ruby"
 gem "sinatra"
-gem "pony"
+gem 'mailgun-ruby', '~>1.0.3', require: 'mailgun'
