@@ -206,7 +206,7 @@ a {
 
 #upcomingDiv {
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 200px;
   text-align: center;
   overflow: hidden;
   height: 100%;
@@ -288,20 +288,24 @@ a {
     margin-top: 20px;
   }
 
-  #showstarFB {
-    float: none;
-    padding: 0;
-    height: 400px; 
-    width: 850%;
-    z-index: 0;
+  #showstarFBDiv {
+    padding: 10px;
   }
-
-  #soundsFB {
-    float: none;
-    padding: 0;
-    padding-top: 50px;
-    height: 400px; 
-    width: 850%;
-    z-index; 0;
+    #showstarFB {
+      float: none;
+      padding: 0;
+      height: 400px; 
+      width: 85%;
+      z-index: 0;
+    }
+  #soundsFBDiv {
+    padding: 10px;
   }
+    #soundsFB {
+      float: none;
+      padding: 0;
+      height: 400px; 
+      width: 85%;
+      z-index; 0;
+    }
 }
