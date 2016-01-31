@@ -35,6 +35,3 @@ DEPENDENCIES
   mailgun-ruby (~> 1.0.3)
   ruby
   sinatra
-
-BUNDLED WITH
-   1.11.2

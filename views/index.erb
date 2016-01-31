@@ -12,6 +12,17 @@
   <!-- Template Navbar -->
   <%= erb :navbar %>
 
+  <!-- Facebook SDK Start -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
+          fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));</script>
+  <!-- Facebook SDK End -->
+
   <div class="wrapper">
 
     <div id="leftContent">
@@ -57,7 +68,7 @@
     </div>
 
     <div id="rightContent">
-      <iframe id="video" src="https://www.youtube.com/embed/znGBlw1pYqc?autoplay=1"
+      <iframe id="video" src="https://www.youtube.com/embed/znGBlw1pYqc?"
         frameborder="0" allowfullscreen></iframe>
 
       <div id="eventsStrip">
@@ -111,15 +122,37 @@
       </div>
 
       <div id="upcomingDiv" class="grid">
-        <div class="unit one-third">
-          <h3> Playhouse </h3>
+
+        <div id="showstarFB" class="fb-page" 
+          data-href="https://www.facebook.com/ShowStarEntertainments" 
+          data-tabs="timeline" 
+          data-small-header="true" 
+          data-adapt-container-width="true" 
+          data-hide-cover="true" 
+          data-show-facepile="false">
+          <div class="fb-xfbml-parse-ignore">
+            <blockquote cite="https://www.facebook.com/ShowStarEntertainments">
+              <a href="https://www.facebook.com/ShowStarEntertainments">Show Star Entertainments</a>
+            </blockquote>
+          </div>
         </div>
-        <div class="unit one-third">
-          <h3> XO Thursdays </h3>
+
+        <div id="soundsFB" class="fb-page" 
+          data-href="https://www.facebook.com/selectedsoundsuk" 
+          data-tabs="timeline" 
+          data-small-header="true" 
+          data-adapt-container-width="true" 
+          data-hide-cover="true" 
+          data-show-facepile="false">
+          <div class="fb-xfbml-parse-ignore">
+            <blockquote cite="https://www.facebook.com/selectedsoundsuk">
+              <a href="https://www.facebook.com/selectedsoundsuk">Selected Sounds</a>
+            </blockquote>
+          </div>
         </div>
-        <div class="unit one-third">
-          <h3> Mayhem </h3>
-        </div>
+
+
+
       </div>
 
     </div>
