@@ -292,14 +292,14 @@ a {
     float: none;
     padding: 0;
     height: 400px; 
-    width: 100%;
+    width: 850%;
   }
 
   #soundsFB {
     float: none;
-    margin-top: 20px;
+    margin-top: 40px;
     padding: 0;
     height: 400px; 
-    width: 100%;
+    width: 850%;
   }
 }
