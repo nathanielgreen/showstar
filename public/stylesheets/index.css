@@ -287,4 +287,19 @@ a {
   #upcomingStrip {
     margin-top: 20px;
   }
+
+  #showstarFB {
+    float: none;
+    padding: 0;
+    height: 400px; 
+    width: 100%;
+  }
+
+  #soundsFB {
+    float: none;
+    margin-top: 20px;
+    padding: 0;
+    height: 400px; 
+    width: 100%;
+  }
 }
