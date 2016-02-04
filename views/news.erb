@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+  <!-- Template Header -->
+  <%= erb :header %>
+
+  <!-- Page Stylesheets/Scripts -->
+  <link rel="stylesheet" href="stylesheets/news.css">
+</head>
+
+<body>
+  <!-- Template Navbar -->
+  <%= erb :navbar %>
+
+  <!-- Facebook SDK Start -->
+  <div id="fb-root"></div>
+  <script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <!-- Facebook SDK End -->
+
+  <div class="wrapper">
+    <div id="newsStrip">
+      <h1>NEWS</h1>
+    </div>
+
+    <div id="left-content">
+        <div id="showstarFBDiv">
+          <div id="showstarFB" class="fb-page" 
+            data-href="https://www.facebook.com/ShowStarEntertainments" 
+            data-tabs="timeline" 
+            data-small-header="true" 
+            data-adapt-container-width="true" 
+            data-hide-cover="true" 
+            data-show-facepile="false">
+            <div class="fb-xfbml-parse-ignore">
+              <blockquote cite="https://www.facebook.com/ShowStarEntertainments">
+                <a href="https://www.facebook.com/ShowStarEntertainments">Show Star Entertainments</a>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+
+        <div id="soundsFBDiv">
+          <div id="soundsFB" class="fb-page" 
+            data-href="https://www.facebook.com/selectedsoundsuk" 
+            data-tabs="timeline" 
+            data-small-header="true" 
+            data-adapt-container-width="true" 
+            data-hide-cover="true" 
+            data-show-facepile="false">
+            <div class="fb-xfbml-parse-ignore">
+              <blockquote cite="https://www.facebook.com/selectedsoundsuk">
+                <a href="https://www.facebook.com/selectedsoundsuk">Selected Sounds</a>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div id="right-content">
+        <div id="xoFBDiv">
+          <div id="xoFB" class="fb-page" 
+            data-href="https://www.facebook.com/xoloughborough" 
+            data-tabs="timeline" 
+            data-small-header="true" 
+            data-adapt-container-width="true" 
+            data-hide-cover="true" 
+            data-show-facepile="false">
+            <div class="fb-xfbml-parse-ignore">
+              <blockquote cite="https://www.facebook.com/xoloughborough">
+                <a href="https://www.facebook.com/xoloughborough">XO Thursdays</a>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+
+        <div id="backwhenFBDiv">
+          <div id="backwhenFB" class="fb-page" 
+            data-href="https://www.facebook.com/BackWhen1" 
+            data-tabs="timeline" 
+            data-small-header="true" 
+            data-adapt-container-width="true" 
+            data-hide-cover="true" 
+            data-show-facepile="false">
+            <div class="fb-xfbml-parse-ignore">
+              <blockquote cite="https://www.facebook.com/BackWhen1">
+                <a href="https://www.facebook.com/BackWhen1">Back When</a>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+    </div>  
+  
+  </div>
+</body>
+</html>
+
+

@@ -1,0 +1,127 @@
+.wrapper {
+  clear: both;
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 1080px;
+  margin-top: 50px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#newsStrip {
+  height: 60px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+#newsStrip h1 {
+  background-color:  #DD4B39;
+  color: #ddd;
+  padding: 20px;
+}
+
+#left-content {
+  float: left;
+  width: 49.5%;
+}
+    #showstarFBDiv {
+      float: left;
+      width: 49%;
+    }
+
+    #soundsFBDiv {
+      float: right;
+      width: 49%;
+    }
+  
+#right-content {
+  float: right;
+  width: 49.5%;
+}
+    #xoFBDiv {
+      float: left;
+      width: 49%;
+    }
+
+    #backwhenFBDiv {
+      float: right;
+      width: 49%;
+    }
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    margin: 0 none;
+    text-align: center;
+    width: 90%;
+  }
+
+  #left-content {
+    float: none;
+    width: 100%
+  }
+      #showstarFBDiv {
+        float: none;
+        height: 400px; 
+        width: 85%;
+        z-index: 0;
+      }
+        #showstarFB {
+          float: none;
+          padding: 0;
+          height: 400px; 
+          width: 85%;
+          z-index: 0;
+        }
+
+      #soundsFBDiv {
+        float: none;
+        height: 400px; 
+        width: 85%;
+        z-index; 0;
+      }
+        #soundsFB {
+          float: none;
+          padding: 0;
+          height: 400px; 
+          width: 85%;
+          z-index; 0;
+        }
+
+  #right-content {
+    float: none;
+    width: 100%
+  }
+      #xoFBDiv {
+        float: none;
+        height: 400px; 
+        width: 85%;
+        z-index: 0;
+      }
+        #xoFB {
+          float: none;
+          padding: 0;
+          height: 400px; 
+          width: 85%;
+          z-index: 0;
+        }
+
+      #backwhenFBDiv {
+        float: none;
+        height: 400px; 
+        width: 85%;
+        z-index: 0;
+      }
+        #backwhenFB {
+          float: none;
+          padding: 0;
+          height: 400px; 
+          width: 85%;
+          z-index: 0;
+        }
+
+}

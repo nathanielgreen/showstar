@@ -227,6 +227,26 @@ a {
     width: 48%;
   }
 
+  #xoFBDiv {
+    margin-top: 10px;
+  }
+    #xoFB {
+      float: left;
+      padding: 1px;
+      height: 500px;
+      width: 48%;
+    }
+
+  #backwhenFBDiv {
+    margin-top: 10px;
+  }
+    #backwhenFB {
+      float: right;
+      padding: 1px;
+      height: 500px;
+      width: 48%;
+    }
+
 .wrapper {
   clear: both;
   margin: 0 auto;
@@ -298,6 +318,7 @@ a {
       width: 85%;
       z-index: 0;
     }
+
   #soundsFBDiv {
     padding: 10px;
   }
@@ -307,5 +328,27 @@ a {
       height: 400px; 
       width: 85%;
       z-index; 0;
+    }
+
+  #xoFBDiv {
+    padding: 10px;
+  }
+    #xoFB {
+      float: none;
+      padding: 0;
+      height: 400px; 
+      width: 85%;
+      z-index: 0;
+    }
+
+  #backwhenFBDiv {
+    padding: 10px;
+  }
+    #backwhenFB {
+      float: none;
+      padding: 0;
+      height: 400px; 
+      width: 85%;
+      z-index: 0;
     }
 }
