@@ -96,9 +96,14 @@ a {
   width: 100%;
 }
 
-#flyer {
-  width: 100%;
-}
+  #playflyer {
+    width: 100%;
+  }
+
+  #xoflyer {
+    margin-top: 25px;
+    width: 100%;
+  }
 
 #logoDiv {
   margin: 0 auto;
@@ -120,12 +125,12 @@ a {
   background-color: #FA4832;
   height: 30px;
   padding-top: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: center;
 }
 
 #eventsBox {
-  padding-top: 20px;
+  padding-top: 10px;
   width: 100%;
   text-align: center;
 }
@@ -137,7 +142,7 @@ a {
   font-size: 20px;
   left: 0;
   margin: 10px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   padding-bottom: 10px;
   right: 0;
   text-align: center;
@@ -262,7 +267,7 @@ a {
 #leftContent {
   float: left; 
   margin: 0;
-  margin-top: 80px;
+  margin-top: 92px;
   padding-right: 5px;
   width: 33%;
 }
