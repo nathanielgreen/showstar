@@ -28,25 +28,21 @@ body {
   background-color: #FA4832;
 }
 
-#a-news:hover {
+#a-gallery:hover {
   background-color: #0684E5;
 }
 
-#a-gallery:hover {
+#a-music:hover {
   background-color: #00E885;
   color: #2d2d2d;
 }
 
-#a-music:hover {
+#a-plan:hover {
   background-color: #FA3434;
 }
 
-#a-plan:hover {
-  background-color: #D02C86;
-}
-
 #a-contact:hover {
-  background-color: #4E1487;
+  background-color: #D02C86;
 }
 
 @media screen and (max-width: 480px) {
