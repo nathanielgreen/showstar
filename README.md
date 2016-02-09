@@ -44,7 +44,7 @@ Alternativley to view on your local machine:
 
 On completion and payment, this repository has now been open sourced.
 
-This repository may be cloned down for personal editing or use in other
+This repository and its code may be cloned down for personal editing and/or use in other
 projects unrelated to ShowStar Entertainments.
 
 

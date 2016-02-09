@@ -25,27 +25,28 @@ body {
 }
 
 #a-home:hover {
-  background-color: #DD4B39;
-}
-
-#a-gallery:hover {
-  background-color: #11ABAB;
-}
-
-#a-plan:hover {
-  background-color: #FCB150;
+  background-color: #FA4832;
 }
 
 #a-news:hover {
-  background-color: #0077B5;
+  background-color: #0684E5;
+}
+
+#a-gallery:hover {
+  background-color: #00E885;
+  color: #2d2d2d;
 }
 
 #a-music:hover {
-  background-color: #47177D;
+  background-color: #FA3434;
+}
+
+#a-plan:hover {
+  background-color: #D02C86;
 }
 
 #a-contact:hover {
-  background-color: #79c879;
+  background-color: #4E1487;
 }
 
 @media screen and (max-width: 480px) {

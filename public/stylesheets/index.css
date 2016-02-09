@@ -115,7 +115,7 @@ a {
 }
 
 #eventsStrip {
-  background-color: #CC324B;
+  background-color: #FA4832;
   height: 30px;
   padding-top: 10px;
   margin-top: 20px;
@@ -133,61 +133,62 @@ a {
   border-width: 2px;
   display: inline-block;
   font-size: 20px;
+  left: 0;
   margin: 10px;
   margin-bottom: 25px;
   padding-bottom: 10px;
-  left: 0;
   right: 0;
-  width: 28%;
   text-align: center;
+  width: 28%;
 }
 
   #playhouseBox {
-    border-color: #DD4B39;
+    border-color: #0684E5;
   }
 
     #playhouseBox:hover {
-      background-color: #DD4B39;
+      background-color: #0684E5;
     }
 
   #xothursdaysBox {
-    border-color: #11A8AB;
+    border-color: #00E885;
   }
 
     #xothursdaysBox:hover {
-      background-color: #11A8AB;
+      background-color: #00E885;
+      color: #2d2d2d;
     }
 
   #mayhemBox {
-    border-color: #FCB150;
+    border-color: #FA3434;
   }
 
     #mayhemBox:hover {
-      background-color: #FCB150;
+      background-color: #FA3434;
     }
 
   #backwhenBox {
-    border-color: #0077B5;
+    border-color: #D02C86;
   }
 
     #backwhenBox:hover {
-      background-color: #0077B5;
+      background-color: #D02C86;
     }
 
   #selectedsoundsBox {
-    border-color: #47177d;
+    border-color: #4E1487;
   }
 
     #selectedsoundsBox:hover {
-      background-color: #47177d;
+      background-color: #4E1487;
     }
 
   #eventportfolioBox {
-    border-color: #79c879;
+    border-color: #FE9201;
   }
 
     #eventportfolioBox:hover {
-      background-color: #79c879;
+      background-color: #FE9201;
     }
 
 .eventsImg {
@@ -197,7 +198,7 @@ a {
 } 
 
 #upcomingStrip {
-  background-color: #CC324B;
+  background-color: #FA4832;
   height: 30px;
   padding-top: 10px;
   margin-bottom: 10px;
