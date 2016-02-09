@@ -10,19 +10,64 @@ a {
   text-decoration: none;
 }
 
+
+
+/* Main Page Div Styling */
+.wrapper {
+  clear: both;
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 960px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+}
+
+#leftContent {
+  float: left; 
+  margin: 0;
+  margin-top: 120px;
+  padding-right: 5px;
+  width: 33%;
+}
+
+#rightContent {
+  float: right;
+  margin: 0;
+  width: 65%;
+}
+/* Main Page Div Styling End */
+
+
+
+/* Left Content */
+#logoDiv {
+  margin: 0 auto;
+  text-align: center;
+}
+
+  #aboutLogo {
+    width: 60%;
+  }
+
 #social {
   background-color: #222;
+  border: solid;
+  border-color: #2d2d2d;
+  border-width: 3px;
   color: #ddd;
-  width: 100%;
-  text-align: center;
-  padding-bottom: 20px;
   margin: 0 auto;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  text-align: center;
   top: 0;
+  width: 98%;
 }
 
 #socialTitle {
   background-color: #2d2d2d;
   font-size: 16px;
+  margin: 0;
+  margin-bottom: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
@@ -63,11 +108,13 @@ a {
       border-color: #2daae2;
     }
 
-
 #about {
   background-color: #222;
+  border: solid;
+  border-width: 3px;
+  border-color: #2d2d2d;
   color: #ddd;
-  width: 100%;
+  width: 98%;
   padding-bottom: 20px;
   margin-bottom: 10px;
   text-align: left;
@@ -82,7 +129,9 @@ a {
 }
 
 #aboutTitle {
+  top: 0;
   background-color: #2d2d2d;
+  margin: 0;
   font-size: 16px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -104,16 +153,10 @@ a {
     margin-top: 25px;
     width: 100%;
   }
+/* Left Content End */
 
-#logoDiv {
-  margin: 0 auto;
-  text-align: center;
-}
 
-  #aboutLogo {
-    width: 60%;
-  }
-
+/* Right Content */
 #video {
   left: 0;
   right: 0;
@@ -136,6 +179,7 @@ a {
 }
 .eventBox {
   background-color: #2d2d2d;
+  border-top: solid;
   border-bottom: solid;
   border-width: 2px;
   display: inline-block;
@@ -255,28 +299,6 @@ a {
       width: 48%;
     }
 
-.wrapper {
-  clear: both;
-  margin: 0 auto;
-  padding-top: 20px;
-  width: 960px;
-  padding-bottom: 20px;
-  margin-top: 50px;
-}
-
-#leftContent {
-  float: left; 
-  margin: 0;
-  margin-top: 92px;
-  padding-right: 5px;
-  width: 33%;
-}
-
-#rightContent {
-  float: right;
-  margin: 0;
-  width: 65%;
-}
 
 @media screen and (max-width: 480px) {
   .wrapper {
@@ -289,6 +311,10 @@ a {
     width: 28%;
   }
 
+  #about {
+    width: 98%
+  }
+
   #leftContent {
     margin-top: 0;
     float: none;
@@ -297,7 +323,6 @@ a {
 
   #social {
     height: 100%;
-    width: 100%;
     padding-bottom: 10px;
   }
 
