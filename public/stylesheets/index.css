@@ -91,6 +91,8 @@ a {
 }
 
 #flyerDiv {
+  margin-top: 25px;
+  margin-bottom: 25px;
   width: 100%;
 }
 
@@ -260,6 +262,7 @@ a {
 #leftContent {
   float: left; 
   margin: 0;
+  margin-top: 80px;
   padding-right: 5px;
   width: 33%;
 }
@@ -282,6 +285,7 @@ a {
   }
 
   #leftContent {
+    margin-top: 0;
     float: none;
     width: 100%
   }
@@ -315,7 +319,7 @@ a {
     #showstarFB {
       float: none;
       padding: 0;
-      height: 400px; 
+      height: 300px; 
       width: 85%;
       z-index: 0;
     }
@@ -326,7 +330,7 @@ a {
     #soundsFB {
       float: none;
       padding: 0;
-      height: 400px; 
+      height: 300px; 
       width: 85%;
       z-index; 0;
     }
@@ -337,7 +341,7 @@ a {
     #xoFB {
       float: none;
       padding: 0;
-      height: 400px; 
+      height: 300px; 
       width: 85%;
       z-index: 0;
     }
@@ -348,7 +352,7 @@ a {
     #backwhenFB {
       float: none;
       padding: 0;
-      height: 400px; 
+      height: 300px; 
       width: 85%;
       z-index: 0;
     }
