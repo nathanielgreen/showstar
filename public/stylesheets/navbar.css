@@ -1,7 +1,5 @@
 body {
-  background-color: #111;
-  background-size: 100%;
-  background-repeat: repeat;
+  background-image: url(../images/background.jpg);
 }
 
 #topnavbar {
