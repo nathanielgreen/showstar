@@ -69,3 +69,7 @@ require 'mailgun'
     erb :selectedsounds
   end
 
+  get '/eventportfolio' do
+    erb :eventportfolio
+  end
+
