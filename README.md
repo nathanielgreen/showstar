@@ -27,7 +27,7 @@ created by Nathaniel Green.
 
 ## Viewing
 
-The website is currently live at http://showstarents.co.uk
+The website is currently live at http://www.showstarents.co.uk
 
 Alternativley to view on your local machine: 
 
