@@ -8,8 +8,7 @@ contact with the client and has been built to very specific design requests.
 
 ## Technologies Used 
 
-The website was built using Sinatra to allow for routing and templates, as
-well as for use with the Mailgun Gem used in the contact forms. 
+The website was built using Sinatra to allow for routing and templates.
 
 Facebook's SDK is also used for the widgets corresponding to each club/events
 social media pages.
@@ -28,6 +27,8 @@ created by Nathaniel Green, and are the property of Showstar Entertainments.
 ## Viewing
 
 The website is currently live at http://www.showstarents.co.uk
+
+A version is also available at http://showstarents.ngreen.co
 
 Alternativley to view on your local machine: 
 
