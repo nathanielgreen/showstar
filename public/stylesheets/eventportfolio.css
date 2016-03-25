@@ -24,3 +24,108 @@ a {
   padding: 20px;
 }
 
+#descDiv {
+  background-color: #222;
+  width: 100%;
+  padding: 0px;
+  overflow: hidden;
+}
+
+#descLogo {
+  text-align: center;
+  background-color: none;
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+  #showstarlogo {
+    width: 30%; 
+  }
+
+#descTitle {
+  background-color: #2d2d2d;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+#description {
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+  #description p {
+    padding: 20px;
+  }
+
+#descTime {
+  font-size: 18px;
+  text-align: center;
+}
+
+#findout {
+  font-size: 18px;
+  text-align: center;
+}
+
+#here {
+  background-color: #0684E5;
+  color: #ddd;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 5px;
+}
+
+  #here:hover {
+    background-color: #fff;
+    color: #111;
+  }
+
+#descLinks {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+#descTwitterLink {
+  background-color: #2d2d2d;
+  height: 100px;
+  width: 100px;
+}
+
+  #descTwitterLink:hover {
+    background-color: #2daae2;
+  }
+
+#descInstagramLink {
+  background-color: #2d2d2d;
+  height: 100px;
+  width: 100px;
+}
+
+  #descInstagramLink:hover {
+    background-color: #264a6a;
+  }
+
+#photosDiv {
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+.showstarImg {
+  width: 24.5%;
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  #showstarlogo {
+    width: 70%;
+  }
+}
+

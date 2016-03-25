@@ -22,7 +22,7 @@ also used in some areas. More information on Gridism can be found at this link h
 ## Media 
 
 All pictures, videos, icons and logos used on the site were either provided by ShowStar Entertainments or
-created by Nathaniel Green.
+created by Nathaniel Green, and are the property of Showstar Entertainments.
 
 
 ## Viewing

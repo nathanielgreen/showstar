@@ -84,12 +84,13 @@ a {
 #descLinks {
   width: 100%;
   padding: 20px;
+  text-align: center;
 }
 
 #descTwitterLink {
   background-color: #2d2d2d;
-  height: 50px;
-  width: 50px;
+  height: 100px;
+  width: 100px;
 }
 
   #descTwitterLink:hover {
@@ -98,8 +99,8 @@ a {
 
 #descInstagramLink {
   background-color: #2d2d2d;
-  height: 50px;
-  width: 50px;
+  height: 100px;
+  width: 100px;
 }
 
   #descInstagramLink:hover {
