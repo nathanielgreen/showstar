@@ -28,7 +28,7 @@ a {
 }
 
 #descDiv {
-  width: 70%;
+  width: 75%;
   float: right;
 }
 
@@ -43,11 +43,11 @@ a {
     width: 30%;
   }
 
-  #xoflyer {
-    float: left;
-    padding: 20px;
-    width: 25%;
-  }
+#xoflyer {
+  float: left;
+  padding: 20px;
+  width: 20%;
+}
 
 #descTitle {
   background-color: #2d2d2d;
