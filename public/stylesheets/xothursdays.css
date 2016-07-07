@@ -8,6 +8,11 @@
   padding-bottom: 50px;
 }
 
+.video {
+  margin-top: 40px;
+  width: 49.5%;
+} 
+
 a {
   color: inherit;
   text-decoration: none;
@@ -120,6 +125,10 @@ a {
 @media screen and (max-width: 480px) {
   .wrapper {
     width: 90%;
+  }
+
+  .video {
+    width: 100%;
   }
 
   #xoflyer {
