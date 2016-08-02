@@ -29,8 +29,8 @@ require 'sinatra'
 
 
   #events
-  get '/playhouse' do
-    erb :playhouse
+  get '/badmanners' do
+    erb :badmanners
   end
 
   get '/xothursdays' do
