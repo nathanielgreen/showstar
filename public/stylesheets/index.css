@@ -325,9 +325,13 @@ a {
   }
   
   .fb-div {
+    align-items: center;
     flex-direction: column;
+    justify-content: center;
   } 
   .fb-page {
-    width: 100%:
+    flex: none;
+    text-align: center;
+    width: 100%;
   }
 
