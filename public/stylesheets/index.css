@@ -272,41 +272,14 @@ a {
   height: 100%;
   width: 100%;
 }
-
-  #showstarFB {
-    float: left;
-    padding: 1px;
-    height: 500px;
-    width: 48%;
+  
+  .fb-div {
+    display: flex;
   }
-
-  #soundsFB {
-    float: right;
-    padding: 1px;
-    height: 500px;
-    width: 48%;
-  }
-
-  #xoFBDiv {
-    margin-top: 10px;
-  }
-    #xoFB {
-      float: left;
-      padding: 1px;
-      height: 500px;
-      width: 48%;
+    .fb-page {
+      flex:1;
+      margin: 2.5px;
     }
-
-  #backwhenFBDiv {
-    margin-top: 10px;
-  }
-    #backwhenFB {
-      float: right;
-      padding: 1px;
-      height: 500px;
-      width: 48%;
-    }
-
 
 @media screen and (max-width: 480px) {
   .wrapper {
