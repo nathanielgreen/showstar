@@ -323,48 +323,11 @@ a {
   #upcomingStrip {
     margin-top: 20px;
   }
-
-  #showstarFBDiv {
-    padding: 10px;
+  
+  .fb-div {
+    flex-direction: column;
+  } 
+  .fb-page {
+    width: 100%:
   }
-    #showstarFB {
-      float: none;
-      padding: 0;
-      height: 300px; 
-      width: 85%;
-      z-index: 0;
-    }
 
-  #soundsFBDiv {
-    padding: 10px;
-  }
-    #soundsFB {
-      float: none;
-      padding: 0;
-      height: 300px; 
-      width: 85%;
-      z-index; 0;
-    }
-
-  #xoFBDiv {
-    padding: 10px;
-  }
-    #xoFB {
-      float: none;
-      padding: 0;
-      height: 300px; 
-      width: 85%;
-      z-index: 0;
-    }
-
-  #backwhenFBDiv {
-    padding: 10px;
-  }
-    #backwhenFB {
-      float: none;
-      padding: 0;
-      height: 300px; 
-      width: 85%;
-      z-index: 0;
-    }
-}
