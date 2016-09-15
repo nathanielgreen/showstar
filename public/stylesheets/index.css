@@ -145,17 +145,15 @@ a {
 }
 
 #flyerDiv {
-  margin-top: 25px;
-  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 100%;
 }
 
-  #playflyer {
-    width: 100%;
-  }
-
-  #xoflyer {
-    margin-top: 25px;
+  .playflyer {
+    flex: none;
+    margin-top: 10px;
     width: 100%;
   }
 /* Left Content End */
