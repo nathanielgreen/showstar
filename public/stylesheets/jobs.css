@@ -1,0 +1,145 @@
+.wrapper {
+  clear: both;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 960px;
+  margin-top: 50px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#contactStrip {
+  height: 60px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+#contactStrip h1 {
+  background-color: #2d2d2d;
+  padding: 20px;
+}
+
+.info {
+  background-color: #222;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+  .info a {
+    background-color: #2d2d2d;
+    padding: 10px;
+  }
+    .info a:hover {
+      background-color: #ddd;
+      color: #2d2d2d;
+    }
+  .info ul {
+    text-align: left;
+  }
+  .info li {
+    text-align: center;
+  }
+
+.jobs-wrapper {
+  background-color: #222;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.jobs-form input {
+  font-size: 22px;
+  height: 40px;
+  margin-bottom: 20px;
+  width: 30%;
+}
+
+.jobs-form select {
+  margin: 10px;
+}
+
+.enquiry {
+  font-size: 18px;
+  height: 200px;
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+#sendEmail {
+  background-color: #3d3d3d;
+  color: #fff;
+  border: none;
+  margin-bottom: none;
+  width: 50%
+}
+
+  #sendEmail:hover {
+    background-color: #fff;
+    color: #2d2d2d;
+  }
+
+#socialLinksDiv {
+  background-color: #222;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.socialLink {
+  border: solid;
+  border-color: #000;
+  border-width: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 20%;
+}
+
+  #facebookLink {
+    background-color: #283e79;
+  }
+    #facebookLink:hover {
+      border: solid;
+      border-width: 5px;
+      border-color: #283e79;
+    }
+
+  #instagramLink {
+    background-color: #264a6a;
+  }
+    #instagramLink:hover {
+      border: solid;
+      border-width: 5px;
+      border-color: #264a6a;
+    }
+
+  #twitterLink {
+    background-color: #2daae2;
+  }
+    #twitterLink:hover {
+      border: solid;
+      border-width: 5px;
+      border-color: #2daae2;
+    }
+
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  #contactForm input {
+    width: 80%;
+  }
+
+  #enquiry {
+    width: 80%; 
+  }
+}

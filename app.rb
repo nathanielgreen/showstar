@@ -27,6 +27,10 @@ require 'sinatra'
     erb :contact
   end
 
+  get '/jobs' do
+    erb :jobs
+  end
+
 
   #events
   get '/badmanners' do

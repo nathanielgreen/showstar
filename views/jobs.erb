@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+  <!-- Template Header -->
+  <%= erb :header %>
+
+  <!-- Page Stylesheets/Scripts -->
+  <link rel="stylesheet" href="stylesheets/jobs.css">
+</head>
+
+<body>
+  <!-- Template Navbar -->
+  <%= erb :navbar %>
+
+  <div class="wrapper">
+    <div id="contactStrip">
+      <h1>CONTACT US</h1>
+    </div>
+
+    <div class="info">
+
+      <h2>Join our team!</h2>
+
+      <p>Working with Show Star Entertainments is one of the 
+      best ways to make some extra money and be part of a huge 
+      social team whilst meeting loads of new people!</p>
+
+      <p>As one of Loughborough's longest running, diverse and 
+      consistent events companies, Show Star Entertainments offers many 
+      different branded events held across all the best venues in town 
+      and are responsible for nights such as XO Thursdays, 
+      Mayhem, Bad Manners and Selected Sounds.</p>
+
+      <p>Our ever growing brand XO Thursdays is also launching in Leeds and Nottingham this year!</p>
+
+      <p>We have loads of different part time roles for you to get involved in such as:-</p>
+
+      <ul>
+        <li>Promotions & Events Managers</li>
+        <li>Ticket Reps/Gueslist Reps/brand reps (networkers)</li>
+        <li>Event Staff (till staff, VIP hosts, cloakroom staff)</li>
+        <li>Flyering Staff</li>
+        <li>Dj’s</li>
+        <li>Photographers</li>
+        <li>Videographers</li>
+        <li> Graphic Designer's</li>
+        <li>Or anyone with any sort of talent that may want to get involved </li>
+      </ul>
+
+      <p>For all enquiries please fill out the contact form below and we will be in touch soon</p>
+
+    </div>
+
+    <div class="jobs-wrapper">
+      <form class="jobs-form" action="mailto:showstarents@live.co.uk" method="post" enctype="text/plain">
+        Name:<br/>
+        <input type="text" placeholder="Full Name" name="name"><br/>
+        City:<br/>
+        <select type="select" name="city">
+          <option>Loughborough</option>
+          <option>Leeds</option>
+          <option>Nottingham</option>
+        </select><br/>
+        Date of Birth:<br/>
+        <input type="date" name="dateofbirth" /><br/>
+        Mobile Number:<br/>
+        <input type="text" placeholder="Mobile Number" name="number"><br/>
+        Email Address:<br/>
+        <input type="email" placeholder="Email" name="email"><br/>
+        Facebook Url:<br/>
+        <input type="text" placeholder="http://" name="facebook"><br/>
+        Roles you're interested in:<br/>
+        <textarea class="enquiry" type="textarea" placeholder="DJ, Event Staff, etc.." name="roles"></textarea><br>
+        Other Information/About you:<br/>
+        <textarea class="enquiry" type="textarea" placeholder="A bit about you" name="otherinfo"></textarea><br>
+        <input id="sendEmail" type="submit" value="Send with Mail Client">
+      </form>
+    </div>
+
+    <div id="socialLinksDiv">
+      <a href="https://twitter.com/showstarents">
+        <img id="twitterLink" class="socialLink" src="images/twitterlogo.png">
+      </a>
+      <a href="https://www.facebook.com/ShowStarEntertainments/?fref=photo">
+        <img id="facebookLink" class="socialLink" src="images/facebooklogo.png">
+      </a>
+      <a href="https://www.instagram.com/showstarents/">
+        <img id="instagramLink" class="socialLink" src="images/instagramlogo.png">
+      </a>
+    </div>
+
+
+
+  </div> 
+
+</body>
+</html>
