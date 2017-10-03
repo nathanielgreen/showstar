@@ -193,10 +193,12 @@ a {
 
 .events-box__top {
   display: flex;
+  margin: 10px;
 }
 
 .events-box__bottom {
   display: flex;
+  margin: 10px;
 }
 
 .eventBox {
