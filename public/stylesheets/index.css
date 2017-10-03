@@ -190,11 +190,20 @@ a {
   text-align: center;
   width: 99%;
 }
+
+.events-box__top {
+  display: flex;
+}
+
+.events-box__bottom {
+  display: flex;
+}
+
 .eventBox {
   background-color: #2d2d2d;
   border-bottom: solid;
   border-width: 2px;
-  display: inline-block;
+  display: flex;
   font-size: 20px;
   left: 0;
   margin: 10px;
@@ -202,7 +211,7 @@ a {
   padding-bottom: 10px;
   right: 0;
   text-align: center;
-  width: 28%;
+  flex: 1;
 }
 
   #badmannersBox {
@@ -252,6 +261,15 @@ a {
 
     #xothursdaysleeds:hover {
       background-color: #FE9201;
+    }
+
+  #xothursdaysnottingham {
+    border-color: #ccc;
+  }
+
+    #xothursdaysnottingham:hover {
+      color: #222;
+      background-color: #ccc;
     }
 
 .eventsImg {
