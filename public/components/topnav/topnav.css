@@ -1,0 +1,56 @@
+body {
+  background-image: url(../images/background.jpg);
+}
+
+.topnav {
+  background-color: #222;
+  border-bottom: solid;
+  border-width: 2px;
+  border-color: #2d2d2d;
+  padding: 5px;
+  text-align: center;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+.topnav__link {
+  color: #ddd;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#a-home:hover {
+  background-color: #FA4832;
+}
+
+#a-gallery:hover {
+  background-color: #0684E5;
+}
+
+#a-music:hover {
+  background-color: #00E885;
+  color: #2d2d2d;
+}
+
+#a-plan:hover {
+  background-color: #FA3434;
+}
+
+#a-contact:hover {
+  background-color: #D02C86;
+}
+
+@media screen and (max-width: 480px) {
+  .topnav {
+    width: 100%;
+  }
+
+  .topnav__link {
+    font-size: 12px;
+    padding: 10px;
+    word-spacing: 0px;
+  }
+}
