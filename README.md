@@ -28,25 +28,12 @@ created by Nathaniel Green, and are the property of Showstar Entertainments.
 
 The website is currently live at http://www.showstarents.co.uk
 
-A version is also available at http://showstarents.ngreen.co
-
 Alternativley to view on your local machine: 
 
 1. Clone down this repo.
-  - `git clone https://github.com/nathanielgreen/showstarWebsite.git`
+  - `git clone https://github.com/nathanielgreen/showstar.git`
 2. Install the necessary gems.
   - `bundle install`
 3. Run the `app.rb`.
   - `ruby app.rb`
 4. The website should be viewable at localhost:4567.
-
-
-## Personal Use 
-
-On completion and payment, this repository has now been open sourced.
-
-This repository and its code may be cloned down for personal editing and/or use in other
-projects unrelated to ShowStar Entertainments.
-
-
-
