@@ -24,7 +24,7 @@ a {
 #leftContent {
   float: left; 
   margin: 0;
-  margin-top: 120px;
+  margin-top: 10px;
   padding-right: 5px;
   width: 33%;
 }
@@ -35,6 +35,14 @@ a {
   width: 65%;
 }
 /* Main Page Div Styling End */
+
+
+/* Top Video */
+.top-video {
+  height: 600px;
+}
+/* Top Video End */
+
 
 
 
@@ -169,7 +177,7 @@ a {
 #video {
   left: 0;
   right: 0;
-  height: 300px;
+  height: 600px;
   width: 100%;
 }
 

@@ -7,6 +7,10 @@ require 'sinatra'
     erb :index
   end
 
+  get '/loughborough' do
+    erb :loughborough
+  end
+
   get '/gallery' do
     erb :gallery
   end
