@@ -1,4 +1,4 @@
-const sidebar = Vue.component('sidebar', {
+const Sidebar = Vue.component('sidebar', {
   template: `
     <div id="leftContent">
       <div id="logoDiv">
@@ -48,4 +48,4 @@ const sidebar = Vue.component('sidebar', {
   `,
 });
 
-export default sidebar;
+export default Sidebar;
